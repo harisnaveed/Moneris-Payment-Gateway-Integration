@@ -1,4 +1,4 @@
-# Moneris Payment Gateway Integration
+# Moneris Payment Gateway Integration and Freightcom Shipping API Integration
 
 Standalone Core PHP integration for the Moneris Payment Gateway with Freightcom Shipping API integration.
 
