@@ -96,32 +96,32 @@ if (MONERIS_ENV === 'prod') {
 // ==================================================================
 
 //testing
-// $freightcom_api_key = "yCvd6AwgKQfKd6WkFBfCP56oiP0FcDJBqxYnqatDH4oMve1h0374uh96PID2Q6Ev";
-// $freightcom_base_url = "https://customer-external-api.ssd-test.freightcom.com/";
-// $payment_method_id = "NB9yHhspvzcg7JpU3QFQPUy2oL1Uj23B"; // for testing
+$freightcom_api_key = "your_test_api_key";
+$freightcom_base_url = "https://customer-external-api.ssd-test.freightcom.com/";
+$payment_method_id = "your_test_payment_method_id";
 
 // production
-$freightcom_api_key = "BHDpRDmHLI2GTUkPHlbFEtyQkTbLYSmXuuZhDtt1gveaoPxEkHtcaNBdD72ACJxf";
-$freightcom_base_url = "https://external-api.freightcom.com/";
-$payment_method_id = "fnn3IvwvM7PrwZRFwmERmrqYmtBlvQpb"; // for live
+// $freightcom_api_key = "your_live_api_key";
+// $freightcom_base_url = "https://external-api.freightcom.com/";
+// $payment_method_id = "your_live_payment_method_id";
 
 // destination details
-$destination_name = "Fix Moi mtl microsoldering";
-$destination_address = "4-5700 rue de cahmbery";
-$destination_city = "Brossard";
-$destination_state = "QC";
+$destination_name = "Business Name";
+$destination_address = "address";
+$destination_city = "city";
+$destination_state = "state";
 $destination_country = "CA";
-$destination_postal_code = "J4Z0N9";
-$destination_phone = "4389690305";
+$destination_postal_code = "ABC123";
+$destination_phone = "+14079905848";
 
 // ===================================================================
 // Database 
 // ===================================================================
 
 $host = "localhost";
-$user = "uwtn3bsodpoqs";
-$password = "vtazs1sewbba";
-$database = "dbgfevitvxajkc";
+$user = "root";
+$password = "";
+$database = "moneris_gateway";
 
 // Using mysqli
 $conn = mysqli_connect($host, $user, $password, $database);
